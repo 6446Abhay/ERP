@@ -1,0 +1,23 @@
+/* styles.css */
+
+/* Center the login form on the page */
+body {
+    background-color: #f4f7fc;
+}
+
+.card {
+    border-radius: 8px;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+/* Style for the dashboard page */
+h2 {
+    color: #333;
+}
+
+button {
+    margin: 10px 0;
+}
