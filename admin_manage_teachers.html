@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Teachers</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Manage Teachers</h2>
+
+        <form>
+            <div class="form-group">
+                <label for="teacherName">Teacher Name:</label>
+                <input type="text" id="teacherName" class="form-control" placeholder="Enter teacher name">
+            </div>
+            <div class="form-group">
+                <label for="subjectTaught">Subject Taught:</label>
+                <input type="text" id="subjectTaught" class="form-control" placeholder="e.g., Maths, Science">
+            </div>
+            <button type="submit" class="btn btn-success">Add Teacher</button>
+        </form>
+
+        <hr>
+        <h4>Existing Teachers</h4>
+        <ul class="list-group">
+            <li class="list-group-item">Mr. Sharma - Maths</li>
+            <li class="list-group-item">Ms. Gupta - English</li>
+            <!-- Example entries -->
+        </ul>
+
+        <br>
+        <a href="admin_dashboard.html" class="btn btn-secondary">Back to Dashboard</a>
+    </div>
+</body>
+</html>
